@@ -2,18 +2,45 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon Portfolio</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background: #f0f2f5; }
-        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
-        h1 { color: #007bff; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joël TCHINDA TAPA | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <h1>Joël - Portfolio </h1>
-        <p>Bienvenue sur mon projet de TP !</p>
-        <p>Stack : Node.js, Docker, GitHub Actions</p>
-    </div>
+    <nav class="navbar">
+        <div class="logo">JOËL TCHINDA TAPA</div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="accueil" class="hero">
+        <div class="hero-image-container fade-in">
+            <img src="ma-photo.jpg" alt="Joël TCHINDA TAPA" class="hero-img">
+        </div>
+        
+        <div class="hero-text fade-in">
+            <h1 class="title">JOËL TCHINDA TAPA</h1>
+            <h2 class="subtitle">Software Engineer | DevOps & Cloud Enthusiast</h2>
+            
+            <p class="description">
+                Ingénieur logiciel en formation à l’ENSIM, passionné par la construction de systèmes fiables, performants et évolutifs. 
+                Je développe des applications en mettant l’accent sur la qualité du code, l’architecture propre et l’optimisation. 
+                <strong> objectif :</strong>  évoluer vers le DevOps et le Cloud, automatiser les déploiements et améliorer la fiabilité des infrastructures.
+            </p>
+
+            <p class="project-pro">
+                <strong>Recherche d'un stage de 03 mois</strong> en tant que Concepteur Développeur à partir de juin 2026.
+            </p>
+
+            <a href="#parcours" class="btn-discover">EN VOIR PLUS</a>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
 </body>
 </html>
