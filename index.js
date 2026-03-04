@@ -57,13 +57,3 @@ app.post('/send-email', async (req, res) => {
 app.listen(PORT, () => {
     console.log(` Serveur lancé sur http://localhost:${PORT}`);
 });
-
-// On exporte l'objet app pour que Jest puisse l'utiliser dans les tests
-module.exports = app;
-
-// On ne lance le serveur que si le fichier est exécuté directement 
-if (require.main === module) {
-    app.listen(PORT, () => {
-        console.log(`Serveur lancé sur http://localhost:${PORT}`);
-    });
-}
