@@ -47,7 +47,7 @@ Commande pour tester localement :
 
 Bash
 npm test
-🐳 Déploiement Docker
+##🐳 Déploiement Docker
 Pour garantir que l'application fonctionne sur n'importe quel serveur, nous utilisons Docker :
 
 Construction de l'image :
