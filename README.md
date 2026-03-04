@@ -49,3 +49,47 @@ Nous utilisons **Jest** pour valider le bon fonctionnement du serveur. Les tests
 **Commande pour tester localement :**
 ```bash
 npm test
+
+##🐳 🧪 Validation des Tests
+
+Pour garantir que l'application fonctionne sur n'importe quel serveur, nous utilisons Docker :
+
+
+
+Construction de l'image :
+
+
+
+Bash
+
+docker build -t portfolio-joel .
+
+Lancement de l'application :
+
+
+
+Bash
+
+docker run -p 3000:3000 portfolio-joel
+
+
+
+## 🐳 Lancement avec Docker
+
+1. Clonez le dépôt.
+
+2. Créez un fichier `.env` avec vos identifiants Gmail (voir section Sécurité).
+
+3. Lancez la commande :
+
+   ```bash
+
+   docker-compose up -d
+
+📈 Conclusion du Projet
+
+Ce projet m'a permis de maîtriser le cycle de vie complet d'un logiciel : du développement des fonctionnalités (Portfolio/Email) à la mise en place d'une infrastructure robuste et automatisée. Le dépôt GitHub affiche actuellement une pastille verte ✅, confirmant la réussite du pipeline.
+
+
+
+Développé par Joël - Projet DevOps 2026 fait pareil pour le reste ci(presentation )
