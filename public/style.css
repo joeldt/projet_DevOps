@@ -205,3 +205,26 @@ section.visible .timeline-item {
     box-shadow: 0 20px 40px rgba(0,0,0,0.05);
     border-color: #1a1a1a;
 }
+.contact-section { padding: 100px 10%; background: #1a1a1a; color: #fff; }
+.contact-container { max-width: 600px; margin: 0 auto; }
+.contact-form { display: flex; flex-direction: column; gap: 20px; }
+
+.contact-form input, .contact-form textarea {
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #444;
+    color: #fff;
+    font-family: inherit;
+}
+
+.btn-send {
+    padding: 15px;
+    background: #fff;
+    color: #1a1a1a;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-send:hover { background: #2563eb; color: #fff; }
