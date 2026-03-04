@@ -53,11 +53,6 @@ app.post('/send-email', async (req, res) => {
 });
 
 // demarage du serveur
-
-app.listen(PORT, () => {
-    console.log(` Serveur lancé sur http://localhost:${PORT}`);
-});
-
 if (process.env.NODE_ENV !== 'test') {
     const PORT = process.env.PORT || 3000;
     app.listen(PORT, () => {
